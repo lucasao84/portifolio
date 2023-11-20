@@ -1,0 +1,841 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.social-button a  {
+    color: #000;
+}
+.menu-mobile {
+    display: none;
+}
+
+.interfacee {
+    padding: 40px 4%;
+    
+}
+
+.img-topo-site img {
+    width: 500px;
+  
+}
+
+.interfacee {
+    display: flex;
+    
+}
+
+
+
+body {
+    background-color: black;
+}
+
+  .topo-do-site {
+    width: 100%;
+    padding: 40px 4%;
+  }
+
+ .topo-do-site p {
+    color: #fff;
+    text-align: justify;
+ }
+
+ .btn-contato {
+  padding: 0px 8%;
+ }
+
+.interface {
+    display: flex;
+    
+    align-items: center;
+    padding: 40px 4%;
+    
+}
+
+ 
+
+.menu-mobile {
+    display: none;
+}
+
+header .menu-desktop nav ul {
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    align-content: space-between;
+}
+
+header .menu-desktop nav ul a {
+    text-decoration: none;
+    color: #5e5b5b;
+    display: inline-block;
+    transition: .2s;
+}
+
+
+header .menu-desktop nav ul a:hover {
+    color: #fff;
+    transform: scale(1.10);
+    text-shadow: 0px 0px 8px #fff;
+}
+
+.interface .btn-contato button {
+    padding: 10px 40px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #00FF08;
+    border: 0;
+    border-radius: 30px;
+    margin-left: 80px;
+    transition: .2s;
+}
+
+.interface .btn-contato button:hover {
+    box-shadow: 0px 0px 8px #53fa59;;
+    transform: scale(1.10); }
+
+
+/*imagem fluante*/
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+        
+    }
+
+    100%{
+        top: 30px;
+    }
+}
+
+
+.img-topo-site{
+    position: relative;
+    animation: flutuar 1.5s ease-in-out infinite alternate;
+}
+
+/* ESTILO DO CABEÇALHO */
+
+
+
+
+
+
+
+
+
+/*TOPO DO SITE*/
+
+section {
+    padding: 80px 4%
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 90px;
+}
+
+
+
+.topo-do-site h1 {
+    color: #fff;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+span {
+    color: #00FF08;
+}
+
+
+
+.topo-do-site p {
+    color: #fff;
+    margin: 40px 0px;
+   
+}
+
+.btn-contato button {
+   
+    padding: 10px 40px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #00FF08;
+    border: 0;
+    border-radius: 30px;
+    transition: .2s;
+    
+    
+   
+}
+
+h2 {
+    font-size: 38px;
+}
+
+
+.btn-contato button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 8px #53fa59;
+
+}
+
+
+.topo-do-site img {
+    position: relative;
+    animation: flutuar 1.5s ease-in-out infinite alternate;
+}
+
+
+
+@keyframes flutuar {
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+/*estilos da especialidades*/
+
+section.especialidade {
+    padding: 40px 4%;
+}
+
+.interface h2 {
+    color: #fff;
+}
+
+.especialidades-box {
+  color: #fff;
+
+    
+   
+
+}
+
+.especial {
+    padding: 40px 4%;
+}
+
+.especial h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.especial .interfase {
+    gap: 60px;
+}
+
+.interface h2 {
+    color: #fff;
+}
+
+.interfase {
+    color: #fff;
+    
+    display: flex;
+    align-items: center;
+    
+}
+
+.box {
+    padding: 40px;
+    margin-top: 45px;
+    border-radius: 20px;
+    transition: .2s;
+}
+
+.box:hover {
+transform: scale(1.05);
+box-shadow: 0px 0px 20px #faf8f89f;
+}
+
+.box i {
+    font-size: 70px;
+    color: #00FF08;
+}
+
+.box h3 {
+    font-size: 28px;
+    margin: 15px 0px;
+}
+
+.principal {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+   
+}
+
+.imgg img {
+    border-radius:10% ;
+}
+
+.texto {
+    color: #fff;
+    align-items: center;
+    
+    
+}
+
+.texto > h4 {
+    margin: 0px 0px 40px 0px;
+    align-items: center;
+    font-size: 40px;
+    line-height: 40px;
+    
+}
+
+.texto > p {
+    margin: 20px 0px;
+    text-align: justify;
+   
+}
+
+.texto > h4 >span {
+    display: block;
+}
+
+
+.texto  .social-button button {
+width: 60px;
+height: 60px;
+border-radius: 50%;
+border: 0;
+background-color: #00FF08;
+font-size: 22px;
+cursor: pointer;
+margin: 0px 5px;
+transition: .2s;
+}
+
+.texto  .social-button button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 8px #53fa59;
+}
+
+
+/*ESTILO PORTFÓLIO*/
+
+ .portifolio {
+    padding: 80px 4%;
+    box-shadow: 0px 0px 40px 10px #ffffff21;
+}
+
+.portifolio .flex {
+    gap: 60px;
+    margin-top: 60px;
+}
+
+.img.port {
+    width: 350px;
+    height: 460px;
+    background-color: #53fa59;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 10s;
+    cursor: pointer;
+    border-radius: 40px;
+    position: relative;
+}
+
+.img.port:hover {
+ background-position: 100% 100%;
+}
+
+.overley {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #080808d5;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    opacity: 0;
+    transition: .5s;
+}
+
+.overley:hover{
+opacity: 1;
+}
+
+
+/*FORMULARIO*/
+
+section .formulario {
+    padding: 80px 4%;
+}
+
+form {
+    
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 60px;
+}
+
+form input, textarea {
+    width: 100%;
+    background-color: #8180805d;
+    border: 0;
+    outline: 0;
+    padding: 20px 10px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+}
+
+form input::placeholder {
+    color: #ffffff81;
+}
+
+form textarea {
+    color: #ffffff81;
+    resize: none;
+    height: 200px;
+}
+
+form .btn-enviar {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+
+form .btn-enviar input{
+    
+    width: 120px;
+    background-color: #00FF08;
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s;
+    
+}
+
+.btn-enviar input:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 8px #53fa59;
+}
+
+
+
+/*RODAPE*/
+
+footer {
+    padding: 20px 4%;
+    box-shadow: 0px 0px 40px 10px #ffffff21;
+    
+}
+
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    
+}
+
+
+
+
+.btn-botao button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 0;
+    background-color: #00FF08;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0px 5px;
+    transition: .2s;
+}
+
+.btn-botao button:hover  { 
+    transform: scale(1.05);
+    box-shadow: 0px 0px 8px #53fa59;
+}
+
+footer .line-foter {
+   padding: 60px 0px;
+}
+
+footer .line-foter > p > i {
+    color: #00FF08;
+    font-size: 22px;
+}
+
+footer .line-foter > p a {
+    color: #fff;
+    padding: 0px 0px 0px 5px;
+}
+
+.borda {
+    border-top: 2px solid #00FF08;
+}
+
+div .line-foter {
+    padding: 30px 0px;
+}
+
+div .fot{
+  height: 100px;
+}
+
+.rodape hr {
+color: #00FF08;
+margin-top: 20px;
+}
+
+ .line i {
+    color: #00FF08;
+    font-size: 28px;
+}
+
+.line a {
+font-size: 28px ;
+color: #fff;
+}
+.line {
+    margin-top: 30px;
+}
+/*RESPONSIVO*/
+
+@media screen and (max-width:1020px) {
+
+    /*CLASES GERAIS*/
+
+    .topo-do-site .flex {
+        flex-direction: column-reverse;
+    }
+
+    .interfase {
+        flex-direction: column;
+    }
+
+    .principal {
+        flex-direction: column-reverse;
+    }
+
+
+
+    .especial .flex {
+        flex-direction: column;
+    }
+
+    
+    
+    .portifolio .flex .topo-do-site {
+        flex-direction: column;
+    }
+    
+    /*cabeçario*/
+
+    .cabeca .butoes , .btn-contato{
+        display: none;
+    }
+
+    header {
+        padding: 0px 8%;
+    }
+
+    /*TOPO DO SITE*/
+
+    .topo-do-site h1 {
+       
+        font-size: 30px;
+        
+    }
+
+    section {
+        padding: 10px 8%
+    }
+
+    .topo-do-site img {
+        width: 500px;
+    }
+
+    .flex {
+       
+        gap: 40px;
+    }
+
+    /*ESPECIALIDADE*/
+
+    section.especial {
+        padding: 40px 8%;
+    }
+
+     .especial > h2 {
+        font-size: 33px;
+        line-height: 33px;
+    }
+
+    /*SOBRE*/
+
+     .principal {
+        padding: 80px 8%;
+     }
+
+     .principal .texto > h4 {
+        font-size: 34px;
+        line-height: 35px;
+        text-align: center;
+     }
+
+     .social-button {
+        text-align: center;
+     }
+
+     /*portifolio*/
+
+     .portifolio {
+        padding: 80px 8%;
+        box-shadow: 0px 0px 40px 10px #ffffff21;
+    }
+     
+    /* RODAPE */
+
+   
+    .rodape {
+        flex-direction: column;
+    }
+
+    .line i {
+        
+        font-size: 20px;
+    }
+
+    .line a {
+        font-size: 20px ;
+    }
+
+    .line {
+        padding: 30px 10%;
+    }
+
+    hr {
+        margin-top: 40px;
+    } 
+
+
+
+    /*ESTILO DO MENU MOBILE*/
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: black;
+    }
+    
+     
+    
+    .interface {
+        display: flex;
+        align-items: center;
+        padding: 40px 4%;
+    }
+    
+    .menu-desktop {
+        
+    }
+     
+    
+    .menu-mobile {
+        display: block;
+    }
+    
+    header .menu-desktop nav ul {
+        display: flex;
+        gap: 30px;
+        font-size: 20px;
+        align-content: space-between;
+    }
+    
+    header .menu-desktop nav ul a {
+        text-decoration: none;
+        color: #5e5b5b;
+        display: inline-block;
+        transition: .2s;
+    }
+    
+    
+    header .menu-desktop nav ul a:hover {
+        color: #fff;
+        transform: scale(1.10);
+        text-shadow: 0px 0px 8px #fff;
+    }
+    
+    .interface .btn-contato button {
+        padding: 10px 40px;
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: 600;
+        background-color: #00FF08;
+        border: 0;
+        border-radius: 30px;
+        margin-left: 80px;
+        transition: .2s;
+    }
+    
+    .interface .btn-contato button:hover {
+        box-shadow: 0px 0px 8px #53fa59;;
+        transform: scale(1.10);
+    }
+    
+    /*MENU MOBILE RESPONSIVO*/
+    @media screen and (max-width:1020px) {
+       
+       
+        .menu-desktop {
+           display: none;
+        }
+    
+        
+        .img-logo  {
+         width: 80%;
+
+        
+        }
+
+        .img-topo-site img {
+            width: 100%;
+        }
+
+       
+
+        .interfacee {
+            display: block;
+            padding: 40px 4%;
+        }
+           
+
+       
+
+        
+
+        
+
+        
+            
+        
+    
+        .menu-mobile {
+            display: flex;
+            
+        
+        }
+    
+        header {
+           margin: auto;
+        }
+    
+        .btn-contato {
+            display: none;
+        }
+    
+        
+    
+        .menu-mobile nav ul {
+            list-style-type: none;
+            margin-top: 80px;
+            
+            
+            
+            
+        }
+    
+        .menu-mobile nav ul a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 20px;
+            font-weight: 300;
+            padding: 20px 4%;
+            display: block;
+            padding: 20px 4%;
+        }
+    
+    
+        .menu-mobile {
+            background-color: #000000;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 50%;
+            transition: .2s;
+            display: none;
+            
+        }
+    
+        
+    
+        header .menu-mobile nav ul a {
+            text-decoration: none;
+            color: #fff;
+            display:block;
+            transition: .2s;
+           
+            
+        }
+    
+        header .menu-mobile nav ul a:hover {
+            color: #53fa59;
+            transform: scale(1.10);
+            text-shadow: 0px 0px 8px #fff;
+           
+        }
+    
+    
+        .btn-fecha {
+            padding: 20px 4%;
+        }
+    
+       .btn-fecha i {
+        color: #00FF08;
+        font-size: 30px;
+        cursor: pointer; }
+    
+        .menu-abrir i {
+            color: #00FF08;
+            font-size: 80px;
+            cursor: pointer;
+            margin-right: 200px;
+        }
+    
+        .menu-abrir {
+            margin-bottom: 40px;
+            
+        }
+
+        
+    
+
+
+
+    }
+}
